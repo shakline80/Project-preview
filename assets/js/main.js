@@ -2,7 +2,7 @@
 	function copyToken() {
 		const input = document.getElementById('tokenInput');
 		navigator.clipboard.writeText(input.placeholder)
-		.then(() => alert('Copied to clipboard!'))
+		.then(() => alert('Token Copied!'))
 		.catch(err => console.error('Failed to copy:', err));
 	}
 
