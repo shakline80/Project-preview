@@ -229,70 +229,95 @@
     }
     .login-screen {
         padding: 15px;
-        padding-top: 40px;
+        padding-top: 30px;
     }
-.register-wrapper {
-    display: block;
-}
-.register-content {
-    width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-.form-wrapper {
-    width: 100%;
-    max-width: 480px;
-    margin: 0 auto;
-}
-.copyright-wrap{
-    margin-top: 60px;
-}
-.copyright-wrap p {
-    font-size: 12px;
-    text-align: center;
-}
-.register-content {
-    text-align: center;
-}
-.proxy-card h3 {
-    font-size: 15px;
-    justify-content: center;
-}
-.register-content h2 {
-    font-size: 18px;
-    line-height: 26px;
-}
+    .register-wrapper {
+        display: block;
+    }
+    .register-content {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .form-wrapper {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto;
+    }
+    .copyright-wrap{
+        margin-top: 60px;
+    }
+    .copyright-wrap p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .register-content {
+        text-align: center;
+    }
+    .proxy-card h3 {
+        font-size: 15px;
+        justify-content: center;
+    }
+    .register-content h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
 
-.wrap-title{
-    max-width: 340px;
-    margin: 0 auto;
-}
-.register-content p {
-    font-size: 14px;
-}
-.form-wrap {
-    padding: 24px 16px;
-    border-radius: 8px;
-}
-.form-title h4 {
-    font-size: 18px;
-}
-.form-submit button {
-    height: 40px;
-    font-size: 14px;
-}
-.container-rd p {
-    font-size: 12px;
-    line-height: 16px;
-}
-.success-box h4 {
-    font-size: 20px;
-}
-.success-box p br {
-    display: none;
-}
-
+    .wrap-title{
+        max-width: 340px;
+        margin: 0 auto;
+    }
+    .register-content p {
+        font-size: 14px;
+    }
+    .form-wrap {
+        padding: 24px 16px;
+        border-radius: 8px;
+    }
+    .form-title h4 {
+        font-size: 18px;
+    }
+    .form-submit button {
+        height: 40px;
+        font-size: 14px;
+    }
+    .container-rd p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .success-box h4 {
+        font-size: 20px;
+    }
+    .success-box p br {
+        display: none;
+    }
+    .trams-check {
+        padding-top: 0px;
+        margin-bottom: 20px;
+    }
+    .recovery-option p {
+        font-size: 13px;
+    }
+    .form-title {
+        margin-bottom: 30px;
+    }
+    .form-title img {
+        max-width: 28px;
+    }
+    .have-account {
+        margin-top: 20px;
+        padding: 15px;
+    }
+    .have-account p {
+        font-size: 13px;
+    }
+    .form-title p {
+        font-size: 13px;
+    }
+    .form-item label {
+        font-size: 13px;
+    }
 
 }
 
