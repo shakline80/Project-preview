@@ -7,6 +7,10 @@
         margin-bottom: 70px;
         text-align: center;
     }
+    .back-btn {
+        left: 8%;
+        top: 50px;
+    }
 
 }
 
@@ -56,6 +60,10 @@
     .proxy-card {
         padding: 16px;
         margin-bottom: 10px;
+    }
+     .back-btn {
+        left: 6%;
+        top: 40px;
     }
 
 
@@ -126,6 +134,13 @@
         padding: 30px;
     }
     .container-rd p {
+        font-size: 13px;
+    }
+      .back-btn {
+        left: 6%;
+        top: 40px;
+    }
+    .back-btn a {
         font-size: 13px;
     }
 }
@@ -204,7 +219,13 @@
         border: 2px solid #6633EE;
         font-size: 15px;
     }
-
+    .back-btn {
+        left: 4%;
+        top: 30px;
+    }
+    .back-btn a {
+        font-size: 13px;
+    }
 
 
 
@@ -317,6 +338,28 @@
     }
     .form-item label {
         font-size: 13px;
+    }
+    .create-account-page .register-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .register-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+        .back-btn {
+        left: 15px;
+        top: 28px;
+    }
+    .back-btn a {
+        font-size: 13px;
+        width: 33px;
+        height: 33px;
+        justify-content: center;
+        align-items: center;
+    }
+    .back-btn span {
+        display: none;
     }
 
 }
