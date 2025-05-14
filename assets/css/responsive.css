@@ -1,0 +1,315 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .login-screen {
+        padding-top: 50px;
+    }
+    .logo {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .login-screen {
+        padding-top: 35px;
+    }
+    .logo {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .logo img {
+        width: 135px;
+    }
+    .form-item {
+        margin-bottom: 15px;
+    }
+    .form-item label {
+        font-size: 13px;
+    }
+    .form-title {
+        margin-bottom: 30px;
+    }
+    .trams-check {
+        padding-top: 5px;
+        margin-bottom: 25px;
+    }
+    .copyright-wrap p {
+        font-size: 13px;
+    }
+    .register-content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .register-content p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .proxy-card p {
+        margin-bottom: 0 !important;
+        font-size: 14px !important;
+    }
+    .proxy-card {
+        padding: 16px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .login-screen {
+        padding-top: 35px;
+    }
+    .logo {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .logo img {
+        width: 135px;
+    }
+    .form-item {
+        margin-bottom: 15px;
+    }
+    .form-item label {
+        font-size: 13px;
+    }
+    .form-title {
+        margin-bottom: 30px;
+    }
+    .trams-check {
+        padding-top: 5px;
+        margin-bottom: 25px;
+    }
+    .copyright-wrap p {
+        font-size: 13px;
+    }
+    .register-content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .register-content p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .proxy-card p {
+        margin-bottom: 0 !important;
+        font-size: 14px !important;
+    }
+    .proxy-card {
+        padding: 16px;
+        margin-bottom: 10px;
+    }
+    .register-wrapper {
+        gap: 0 40px;
+    }
+    .register-content {
+        width: 420px;
+    }
+    .form-wrapper {
+        width: 440px;
+    }
+    .form-wrap {
+        padding: 30px;
+    }
+    .container-rd p {
+        font-size: 13px;
+    }
+}
+ 
+
+
+
+
+
+/* LG Device :992px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .login-screen {
+        padding-top: 35px;
+    }
+    .logo {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .logo img {
+        width: 130px;
+    }
+    .form-item {
+        margin-bottom: 15px;
+    }
+    .form-item label {
+        font-size: 13px;
+    }
+    .form-title {
+        margin-bottom: 30px;
+    }
+    .trams-check {
+        padding-top: 5px;
+        margin-bottom: 25px;
+    }
+    .copyright-wrap p {
+        font-size: 13px;
+    }
+    .register-content h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .register-content p {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .proxy-card p {
+        margin-bottom: 0 !important;
+        font-size: 12px !important;
+        line-height: 16px;
+    }
+    .proxy-card {
+        padding: 16px;
+        margin-bottom: 10px;
+    }
+    .register-wrapper {
+        gap: 0 24px;
+    }
+    .register-content {
+        width: 340px;
+    }
+    .form-wrapper {
+        width: 360px;
+    }
+    .form-wrap {
+        padding:24px 20px;
+    }
+   .container-rd p {
+        font-size: 11.2px;
+    }
+    .form-title h4 {
+        font-size: 20px;
+    }
+    .form-submit button {
+        height: 40px;
+        border: 2px solid #6633EE;
+        font-size: 15px;
+    }
+
+
+
+
+}
+ 
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (max-width: 767px) {
+    .create-account-page{
+        height: auto;
+        padding-top: 24px;
+    }
+    .logo img{
+        width: 120px;
+    }
+    .logo{
+        margin-bottom: 40px;
+    }
+    .login-screen {
+        padding: 15px;
+        padding-top: 40px;
+    }
+.register-wrapper {
+    display: block;
+}
+.register-content {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.form-wrapper {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+.copyright-wrap{
+    margin-top: 60px;
+}
+.copyright-wrap p {
+    font-size: 12px;
+    text-align: center;
+}
+.register-content {
+    text-align: center;
+}
+.proxy-card h3 {
+    font-size: 15px;
+    justify-content: center;
+}
+.register-content h2 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.wrap-title{
+    max-width: 340px;
+    margin: 0 auto;
+}
+.register-content p {
+    font-size: 14px;
+}
+.form-wrap {
+    padding: 24px 16px;
+    border-radius: 8px;
+}
+.form-title h4 {
+    font-size: 18px;
+}
+.form-submit button {
+    height: 40px;
+    font-size: 14px;
+}
+.container-rd p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.success-box h4 {
+    font-size: 20px;
+}
+.success-box p br {
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  
+    
+    
+ 
+}
