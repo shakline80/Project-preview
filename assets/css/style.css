@@ -2,10 +2,10 @@
 
 /* Base CSS */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a:focus {
@@ -29,7 +29,7 @@ h6 {
 }
 
 body {
-  color: #8C869A;
+  color: #8c869a;
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
@@ -63,388 +63,384 @@ textarea {
   background-size: cover;
   background-image: url(../img/bg-img.png);
 }
-.login-screen::after{
-    background-position: center;
-    background-size: cover;
-    background-image: url(../img/bg-shp.png);
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-    opacity: .2;
+.login-screen::after {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/bg-shp.png);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.2;
 }
-.login-screen::before{
-    background-position: center;
-    background-size: cover;
-    background-image: url(../img/Noise.png);
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+.login-screen::before {
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Noise.png);
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 .main-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
 }
 
-.logo{
-    margin-bottom: 100px;
-    text-align: center;
+.logo {
+  margin-bottom: 100px;
+  text-align: center;
 }
 .logo img {
-    width: 145px;
+  width: 145px;
 }
 .copyright-wrap p {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: -1.6%;
-    color: #8C869A;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -1.6%;
+  color: #8c869a;
 }
 .register-content {
-    width: 467px;
+  width: 467px;
 }
 .form-wrapper {
-    width: 490px;
+  width: 490px;
 }
 .register-wrapper {
-    display: flex;
-    gap:0 90px;
-    justify-content: center;
+  display: flex;
+  gap: 0 90px;
+  justify-content: center;
 }
 .register-content h2 {
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 30px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
 }
 .register-content p {
-    font-size: 16px;
-    line-height: 21px;
-    margin-bottom: 15px;
-    font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  font-weight: 500;
 }
 .proxy-card {
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .proxy-card-wrap p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: #8C869A;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #8c869a;
 }
-.proxy-card-wrap{
-    margin-top: 20px;
+.proxy-card-wrap {
+  margin-top: 20px;
 }
 .proxy-card p {
-    font-size: 14px;
-    margin: 0;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 0;
-    color: #8C869A;
+  font-size: 14px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 0;
+  color: #8c869a;
 }
 .proxy-card h3 {
-    font-size: 15px;
-    display: flex;
-    align-items: center;
-    gap: 0 6px;
-    color: #fff;
-    font-weight: 500;
-    line-height: 21px;
-    margin-bottom: 10px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 21px;
+  margin-bottom: 10px;
 }
 .form-wrap {
-    border: 1px solid #6633EE;
-    background-color: rgba(102, 51, 238, 0.1);
-    padding: 36px;
-    border-radius: 12px;
-    width: 100%;
-    backdrop-filter: blur(10px);
-   -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #6633ee;
+  background-color: rgba(102, 51, 238, 0.1);
+  padding: 36px;
+  border-radius: 12px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .form-title {
-    margin-bottom: 36px;
-    text-align: center;
+  margin-bottom: 36px;
+  text-align: center;
 }
 
 .form-title h4 {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    line-height: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  line-height: 100%;
 }
 
 .form-title p {
-    font-size: 14px;
-    color: #8C869A;
+  font-size: 14px;
+  color: #8c869a;
 }
 .form-item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .field-box {
-    position: relative;
-    width: 100%;
-    display: flex;
-    height: 38px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-       transition: .3s;
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  transition: 0.3s;
 }
 
 .field-box input {
-    width: 100%;
-    padding: 6px 14px;
-    background: transparent;
-    border: none;
-    color: #fff;
-    font-size: 14px;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    transition: .3s;
+  width: 100%;
+  padding: 6px 14px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  transition: 0.3s;
 }
-.field-box input::placeholder{
-    color: #5D5376;
-    font-size: 14px;
-    font-weight: 500;
+.field-box input::placeholder {
+  color: #5d5376;
+  font-size: 14px;
+  font-weight: 500;
 }
 .field-box input:focus {
-    border-color: #A179FF;
+  border-color: #a179ff;
 }
 .field-box input:visited {
-    border-color: #A179FF;
+  border-color: #a179ff;
 }
 .field-box:has(input:focus) {
-  border-color: #A179FF; /* Your desired border color */
+  border-color: #a179ff; /* Your desired border color */
 }
 .field-box span {
-    width: 38px;
-    height: 100%;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 38px;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .form-item label {
-    font-size: 14px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    display: block;
-    color: #AFAFAF;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  display: block;
+  color: #afafaf;
 }
 .trams-check {
-    padding-top: 10px;
-    margin-bottom: 30px;
+  padding-top: 10px;
+  margin-bottom: 30px;
 }
 .form-submit button {
-    border: none;
-    background: url(../img/bg-btn.png);
-    background-position: center;
-    background-size: cover;
-    border-radius: 90px;
-    height: 44px;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    border: 2px solid #6633EE;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .3s;
+  border: none;
+  background: url(../img/bg-btn.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 90px;
+  height: 44px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  border: 2px solid #6633ee;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .form-submit button:hover {
-    background:url(../img/btn-hover.png)
+  background: url(../img/btn-hover.png);
 }
 .have-account {
-    margin-top: 25px;
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-     backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 25px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  background-color: rgba(255, 255, 255, 0.05);
 }
 .have-account p {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 14px;
-    font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 500;
 }
-.have-account p a{
-    display: inline;
-    color: #A179FF;
-    text-decoration: none;
+.have-account p a {
+  display: inline;
+  color: #a179ff;
+  text-decoration: none;
 }
 .recovery-option {
-    margin-top: 20px;
-    text-align:  center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .recovery-option p {
-    color: #fff;
-    font-size: 14px;
+  color: #fff;
+  font-size: 14px;
 }
-.recovery-option p a{
-    display: inline-block;
-    text-decoration: none;
-    color: #A179FF;
+.recovery-option p a {
+  display: inline-block;
+  text-decoration: none;
+  color: #a179ff;
 }
 .form-title img {
-    margin-bottom: 14px;
-} 
-.form-title img {
-    max-width: 40px;
+  margin-bottom: 14px;
 }
-.token-copy{
-    cursor: pointer;
+.form-title img {
+  max-width: 40px;
+}
+.token-copy {
+  cursor: pointer;
 }
 .success-box {
-    padding: 36px;
-    border: 1px solid #00BF65;
-    border-radius: 12px;
-    text-align: center;
-    max-width: 490px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(0, 191, 101, 0.1);
+  padding: 36px;
+  border: 1px solid #00bf65;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 490px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(0, 191, 101, 0.1);
 }
 .success-box img {
-    max-width: 40px;
-    margin-bottom: 15px;
+  max-width: 40px;
+  margin-bottom: 15px;
 }
 .success-box h4 {
-    font-size: 22px;
-    font-weight: 500;
+  font-size: 22px;
+  font-weight: 500;
 }
 .success-box p {
-    font-size: 14px;
-    font-weight: 500;
+  font-size: 14px;
+  font-weight: 500;
 }
 .success-box h4 {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* Customize the label (the container) */
 /* The container */
 .codeplay-rd .container-rd {
-    display: block;
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
-  
+
 /* Hide the browser's default radio button */
 .codeplay-rd .container-rd input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
 }
-  
+
 /* Create a custom radio button */
 .codeplay-rd .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 16px;
-    width: 16px;
-    background-color: transparent;
-    border-radius: 50%;
-    border: 1px solid rgba(255, 255, 255, 0.15);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
-  
 
-  
 /* When the radio button is checked, add a blue background */
 .codeplay-rd .container-rd input:checked ~ .checkmark {
-    background-color: transparent;
-    border-color: #A179FF;
+  background-color: transparent;
+  border-color: #a179ff;
 }
-  
+
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .codeplay-rd .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+  content: "";
+  position: absolute;
+  display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
 .codeplay-rd .container-rd input:checked ~ .checkmark:after {
-    display: block;
+  display: block;
 }
-  
-  /* Style the indicator (dot/circle) */
+
+/* Style the indicator (dot/circle) */
 .codeplay-rd .container-rd .checkmark::after {
-	top: 50%;
-	left: 50%;
-	width: 7px;
-	height: 7px;
-	border-radius: 50%;
-	background: #A179FF;
-	transform: translate(-50%, -50%);
-    border-color: #A179FF !important;
+  top: 50%;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #a179ff;
+  transform: translate(-50%, -50%);
+  border-color: #a179ff !important;
 }
 .container-rd p {
-	margin: 0;
-	font-size: 14px;
-	font-weight: 500;
-	position: relative;
-	top: 0;
-    font-weight: 500;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  font-weight: 500;
 }
-.container-rd p a{
-	color: #A179FF;
-    display: inline-block;
-    text-decoration: none;
-    transition: .3s;
+.container-rd p a {
+  color: #a179ff;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s;
 }
-.container-rd p a:hover{
-    text-decoration: underline;
+.container-rd p a:hover {
+  text-decoration: underline;
 }
 .field-box img {
-    width: 18px;
+  width: 18px;
 }
-.field-box{
-    position: relative;
+.field-box {
+  position: relative;
 }
-.view-password{
-    position: absolute;
-    right: 12px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 2;
-    padding: 0;
-    line-height: 1;
-    margin-top: 1px;
+.view-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+  padding: 0;
+  line-height: 1;
+  margin-top: 1px;
 }
 .main-content {
-    width: 100%;
+  width: 100%;
 }
 
-  /* Create the indicator (the dot/circle - hidden when not checked) */
+/* Create the indicator (the dot/circle - hidden when not checked) */
 
-
-  .reveal {
+.reveal {
   opacity: 0;
   transform: translateY(5px);
   transition: all 0.4s ease-out;
@@ -455,23 +451,23 @@ textarea {
   transform: translateY(0);
 }
 .back-btn {
-    position: absolute;
-    left: 14%;
-    z-index: 9;
-    top: 70px;
+  position: absolute;
+  left: 14%;
+  z-index: 9;
+  top: 70px;
 }
 .back-btn a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0 6px;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 8px 12px;
-    border-radius: 50px;
-    transition: .3s;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0 6px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 /*-------- Custom  radio button Style End --------*/
